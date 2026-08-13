@@ -1,6 +1,6 @@
 import { paymentInfo } from "@/lib/content";
 
-export function PaymentPanel({ price }: { price?: number }) {
+export function PaymentPanel({ price }: { price?: number | undefined }) {
   return (
     <div className="max-w-2xl mx-auto my-24 p-8 border border-primary/20 bg-background/50 relative">
       <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 text-[10px] font-bold uppercase tracking-widest whitespace-nowrap">

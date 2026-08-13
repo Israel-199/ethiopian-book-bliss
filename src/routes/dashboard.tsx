@@ -79,17 +79,19 @@ function DashboardPage() {
           ),
         )}
 
-        <div className="p-6 border-2 border-dashed border-primary/10 rounded-sm flex flex-col justify-center items-center text-center">
-          <p className="text-xs font-bold uppercase mb-2 text-secondary">አዲስ ብሎግ</p>
-          <h2 className="font-bold mb-4">{post.title}</h2>
-          <Link
-            to="/blog/$slug"
-            params={{ slug: post.slug }}
-            className="text-xs border-b border-foreground/20 pb-1"
-          >
-            ተጨማሪ ያንብቡ
-          </Link>
-        </div>
+        {post && (
+          <div className="p-6 border-2 border-dashed border-primary/10 rounded-sm flex flex-col justify-center items-center text-center">
+            <p className="text-xs font-bold uppercase mb-2 text-secondary">አዲስ ብሎግ</p>
+            <h2 className="font-bold mb-4">{post.title}</h2>
+            <Link
+              to="/blog/$slug"
+              params={{ slug: post.slug }}
+              className="text-xs border-b border-foreground/20 pb-1"
+            >
+              ተጨማሪ ያንብቡ
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );
