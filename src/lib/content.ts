@@ -149,7 +149,7 @@ export const wordOfTheDay = {
   label: "የዕለቱ ቃል / Word of the Day",
   title: "የሕይወት እንጀራና መንፈሳዊ ጥንካሬ",
   body: "በየቀኑ የሚታደስ መንፈሳዊ ስንቅ ለነፍስዎ። ዛሬን በተስፋና በብርታት ይጀምሩ።",
-  quote: "The word is a lamp unto my feet and a light unto my path.",
+  quote: "ቃልህ ለእግሬ መብራት፣ ለመንገዴም ብርሃን ነው።",
 };
 
 export const paymentInfo = {
