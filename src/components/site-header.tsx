@@ -13,7 +13,7 @@ export function SiteHeader() {
     <nav className="border-b border-primary/10 py-6 px-8 flex justify-between items-center">
       <div className="flex items-center gap-8">
         <Link to="/" className="text-2xl font-bold text-primary font-wordmark">
-          Berhan
+          ረቢ
         </Link>
         <div className="hidden md:flex gap-6 text-sm font-medium uppercase tracking-widest">
           {navItems.map((item) => (

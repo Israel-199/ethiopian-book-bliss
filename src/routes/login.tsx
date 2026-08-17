@@ -3,7 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/login")({
   head: () => ({
     meta: [
-      { title: "መግቢያ — Berhan" },
+      { title: "መግቢያ — Rebi" },
       { name: "description", content: "ወደ መለያዎ ገብተው የገዟቸውን መጻሕፍት ያንብቡ።" },
       { property: "og:title", content: "መግቢያ — Berhan" },
       { property: "og:description", content: "ወደ መለያዎ ገብተው የገዟቸውን መጻሕፍት ያንብቡ።" },
