@@ -7,13 +7,13 @@ import heroImage from "@/assets/hero-manuscript.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ብርሃን — የአማርኛ መንፈሳዊ መጻሕፍትና ኦዲዮ መድረክ" },
+      { title: "ረቢ — የአማርኛ መንፈሳዊ መጻሕፍትና ኦዲዮ መድረክ" },
       {
         name: "description",
         content:
           "የዕለቱ ቃል፣ የሚከፈልባቸውና ነጻ መጻሕፍት፣ ኦዲዮ መጻሕፍት፣ መሠረታዊ ክርስቲያናዊ ትምህርቶችና መንፈሳዊ ሥልጠናዎች በአንድ ቦታ።",
       },
-      { property: "og:title", content: "ብርሃን — የአማርኛ መንፈሳዊ መጻሕፍትና ኦዲዮ መድረክ" },
+      { property: "og:title", content: "ረቢ — የአማርኛ መንፈሳዊ መጻሕፍትና ኦዲዮ መድረክ" },
       {
         property: "og:description",
         content: "የዕለቱ ቃል፣ መጻሕፍት፣ ኦዲዮና መንፈሳዊ ሥልጠናዎች በአንድ ቦታ።",
