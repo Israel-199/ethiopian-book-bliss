@@ -81,10 +81,10 @@ export const books: Book[] = [
 ];
 
 export const audioTeachings = [
-  { id: "a1", title: "የጾም ሥርዓትና ትርጉሙ", duration: "42 ደቂቃ", teacher: "መጋቤ ሐዲስ ሙሉጌታ" },
-  { id: "a2", title: "የቅዱስ ያሬድ ዜማ መግቢያ", duration: "35 ደቂቃ", teacher: "ሊቀ መዘምራን ቴዎድሮስ" },
-  { id: "a3", title: "ስለ ንስሐ ሕይወት", duration: "28 ደቂቃ", teacher: "ዲ/ን አሸናፊ" },
-  { id: "a4", title: "የቅዳሴ ትርጓሜ", duration: "51 ደቂቃ", teacher: "መምህር ገብረ ሥላሴ" },
+  { id: "a1", title: "የጾም ሥርዓትና ትርጉሙ", duration: "42 ደቂቃ", teacher: "መጋቢ ሐዲስ ሙሉጌታ" },
+  { id: "a2", title: "የቅዱስ ያሬድ ዜማ መግቢያ", duration: "35 ደቂቃ", teacher: "መጋቢ ቴዎድሮስ" },
+  { id: "a3", title: "ስለ ንስሐ ሕይወት", duration: "28 ደቂቃ", teacher: "መጋቢ አሸናፊ" },
+  { id: "a4", title: "የቅዳሴ ትርጓሜ", duration: "51 ደቂቃ", teacher: "መጋቢ ገብረ ሥላሴ" },
 ];
 
 export const courses = [
