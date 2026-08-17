@@ -154,7 +154,7 @@ export const wordOfTheDay = {
 
 export const paymentInfo = {
   banks: "1000123456789 / 22334455",
-  holder: "ተስፋዬ ብርሃኑ",
+  holder: "ስሜነህ አድማሱ",
   telegram: "https://t.me/berhanbooks",
   telegramHandle: "@berhanbooks",
 };
